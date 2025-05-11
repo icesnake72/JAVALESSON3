@@ -1,0 +1,20 @@
+git : CODE VERSION 관리 툴
+
+github : 원격 저장소(REPOSITORY)를 제공해주는 코드 클라우드
+
+명령프롬프트(cmd.exe)
+네 로컬 코드 디렉토리로 이동
+git config --global user.name "icesnake72"
+git config --global user.email "이메일주소"
+
+git init
+
+git status : 현재 리파지토리 상태 알아보기
+
+git add . : 수정되었거나, 언트랙된 파일들을 스테이징시킨다
+
+git commit -m "메시지" : 커밋
+
+
+작업할 디렉토리 먼저 생성
+git clone 리모트 저장소 url
