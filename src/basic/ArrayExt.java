@@ -58,6 +58,7 @@ public class ArrayExt {
             System.out.printf("val : %d는 배열에 존재하지 않습니다.\n", val);
         }
 
+        // 순차 정렬
         for(int i=0; i<arr.length-1; i++) {
             for(int j=i+1; j<arr.length; j++) {
                 if ( arr[i] > arr[j] ) {
