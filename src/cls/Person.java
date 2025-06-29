@@ -14,7 +14,9 @@ package cls;
 // protected : 원칙은 비공개, 상속받은 자식 클래스와 같은 패키지의 다른 클래스에서 접근할 수 있다.
 // default : 원칙은 비공개, 패키지의 다른 클래스에서 접근할 수 있다.
 
-public class Person {
+import java.io.Serializable;
+
+public class Person implements Serializable {
 
     // 생성자(Constructor)
     // 모든 클래스는 하나 이상의 생성자를 갖는다.
